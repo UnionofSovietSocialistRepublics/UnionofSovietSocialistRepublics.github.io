@@ -6,9 +6,17 @@ function pass(){
     var inlength = innerlength.value;
     var numlength = Number(inlength)
     var Char = "";
+
+
+
+    switch(isNaN(numlength)){
+        case true:
+        alert("Not a number");
+        return;
+    }
     switch(numlength){
         case 0:
-        alert("Not a number.");
+        alert("Not a number");
         return;
     }
        for (i=1; i<=numlength; i++){
@@ -24,6 +32,12 @@ function pass(){
        </h4>`;
        //alert("Your password is " + Char)
    }
+
+function deletion(){
+    document.getElementById("new pass")
+    .innerHTML =
+    "";
+}
 
     
 

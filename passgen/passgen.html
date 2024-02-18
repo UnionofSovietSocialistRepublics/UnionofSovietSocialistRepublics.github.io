@@ -10,12 +10,18 @@
     <script src="passgen.js"></script>   
     <div class="mid">
     <nav>
-        <a href="..\index.html">Return to home page</a>
+        <a href="..\index.html" class="navanax">Return to home page</a>
+        <a href="..\index.html" class="navanax">Return to home page</a>
+        <a href="..\index.html" class="navanax">Return to home page</a>
+        <a href="..\index.html" class="navanax">Return to home page</a>
     </nav>
     <h1>Goofy ahh password generator</h1>
     <h2>"At least it works!" - Me</h2>
     <input type="text" id="input" placeholder="Type a number here"> <br> <br>
-    <button onclick="pass()">Confirm your password length</button>
+    <div class="bcontainer">
+        <button class="button" id="Confirm" onclick="pass()">Confirm your password length</button> <br>
+        <button class="button" id="Delete" onclick="deletion()">Delete the password</button>
+    </div>
     <br>
     <br>
     <div id="new pass"></div>
