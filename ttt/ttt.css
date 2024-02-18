@@ -1,3 +1,38 @@
 #flex{
     display: flex;
 }
+
+nav{
+    color:whitesmoke !important;
+    background-color: black !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 10px;
+}
+
+.navanax{
+    color:whitesmoke;
+    padding: 12px 15px;
+    height: 100%;
+    font-weight: 850;
+    font-size: larger;
+    
+}  
+
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-size: 16px;*/
+    line-height: 1.5;
+    /* outline: none;
+    border: none;
+    text-decoration: none; */
+    margin: 0;
+    padding: 0;
+}
+
+.navanax:hover {
+    background-color: whitesmoke;
+    color: black;
+}
