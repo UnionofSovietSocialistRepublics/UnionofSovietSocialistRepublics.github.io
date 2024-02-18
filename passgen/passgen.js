@@ -24,10 +24,11 @@ function pass(){
         document.getElementById("new pass")
         .innerHTML +=
         `<h4>
-        Your password is` + Char + `
+        Your password is ` + Char + `
         </h4>`;
         //alert("Your password is " + Char)
     }
     
 
 }
+
