@@ -6,6 +6,7 @@ function pass(){
     var inlength = innerlength.value;
     var numlength = Number(inlength)
     var Char = "";
+    var Asc = "";
 
 
 

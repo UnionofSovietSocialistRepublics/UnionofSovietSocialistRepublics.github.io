@@ -1,5 +1,22 @@
-#flex{
+#flex, #box{
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.wide{
+    width: 300px;
+}
+
+.buttonwide{
+    width: 200px;
+}
+
+#break{
+        display: block;
+        width: 100%;
+        height: 0px;
 }
 
 nav{
